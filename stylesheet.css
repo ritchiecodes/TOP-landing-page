@@ -82,7 +82,9 @@ ul {
     color: #1F2937;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 48px;
+
 }
 
 .icons {
@@ -92,6 +94,8 @@ ul {
 
 .iconset1, .iconset2, .iconset3, .iconset4 {
     text-align: center;
+    max-width: 200px;
+    margin: 24px;
 }
 
 .icon1, .icon2, .icon3, .icon4 {

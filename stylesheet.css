@@ -10,7 +10,7 @@ body {
 }
 
 .container1 {
-    padding: 0 256px 128px;
+    padding: 0 128px 128px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -34,6 +34,7 @@ body {
 .navlinks {
     font-size: 18px;
     font-weight: 300;
+    gap: 24px;
 }
 
 .heroleft {
@@ -102,7 +103,78 @@ ul {
     border: 6px solid #3882F6;
     border-radius: 24px;
 }
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
 
+.quoteblock {
+    margin: 128px 320px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.quoteby {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    
+}
+
+.container4 {
+    margin: 86px 200px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #F9FAF8;
+}
+
+.ctabox {
+    padding: 48px 128px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ctaheader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ctatext {
+    font-weight: 300;
+}
+
+.ctabutton {
+    background-color: #3882F6;
+    color: #F3F7FE;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: #F3F7FE;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.footer {
+    color:#E5E7EB;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 36px;
+    font-size: 18px;
+}
 
 
 

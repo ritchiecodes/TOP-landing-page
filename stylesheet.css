@@ -1,7 +1,7 @@
 /* * {
     outline: 1px solid red;
-  }
-   */
+  } */
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -74,7 +74,7 @@ ul {
 }
 
 .container2 {
-    padding: 0 256px 128px;
+    padding: 0 0px 128px;
 }
 
 .infoheader {
@@ -83,7 +83,6 @@ ul {
     color: #1F2937;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 48px;
 
 }
@@ -91,6 +90,7 @@ ul {
 .icons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .iconset1, .iconset2, .iconset3, .iconset4 {
@@ -107,12 +107,12 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
 }
 
 .quoteblock {
-    margin: 128px 320px;
+    margin: 64px 0px;
 }
 
 .quote {
@@ -120,7 +120,7 @@ ul {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-
+    max-width: 800px;
 }
 
 .quoteby {
@@ -141,7 +141,7 @@ ul {
     padding: 48px 128px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
 }
 
 .ctaheader {
@@ -156,7 +156,7 @@ ul {
 .ctabutton {
     background-color: #3882F6;
     color: #F3F7FE;
-    padding: 8px 28px;
+    padding: 8px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
